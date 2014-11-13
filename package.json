@@ -1,0 +1,30 @@
+{
+  "name": "absoluter",
+  "description": "Get html of website with absolute urls.",
+  "version": "0.0.1",
+  "author": "CodersBrothers",
+  "homepage": "https://github.com/CodersBrothers/absoluter",
+  "bugs": {
+    "url": "https://github.com/CodersBrothers/absoluter/issues"
+  },
+  "keywords": [
+    "scrapping",
+    "html",
+    "absolute"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodersBrothers/absoluter.git"
+  },
+  "dependencies": {
+    "jsdom": "^1.2.1",
+    "q": "^1.1.1",
+    "request": "^2.48.0"
+  },
+  "main": "absoluter",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
