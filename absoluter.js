@@ -179,7 +179,12 @@ function replace_all_rel_by_abs(mainUrl, html){
  */
 function doRequest(urlToScrap){
     var df = Q.defer();
-    request(urlToScrap, function (err, response, body) {
+    request({
+        url: urlToScrap,
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+        }
+    }, function (err, response, body) {
         if(err){
             df.reject(err);
         }else{
